@@ -1,0 +1,99 @@
+.TablillaCute {
+  --white:#fffdf7;
+  --white1:#f1e7c8;
+  --maincolor:#d1be7e;
+  --acento1:#9b8649;
+  --black:#1d1a12;
+  --dark:#b7aa7c;
+  --dark1:#7e7046;
+
+  --grad1: linear-gradient(0deg, rgba(228,207,139,1) 0%, rgba(255,253,247,1) 100%);
+  --grad2: linear-gradient(80deg, rgba(194,169,94,1) 0%, rgba(255,253,247,1) 100%);
+  
+  --bigima: url(https://i.imgur.com/KZNHvtM.jpeg);
+  --avito: url(https://i.imgur.com/h5T8o3h.jpeg);
+  --ima1: url(https://i.imgur.com/kirT9f7.jpeg);
+  --ima2: url(https://i.imgur.com/ZXSuXoA.jpeg);
+  --ima3: url(https://i.gyazo.com/ce300c9e6b2029b4a3d24e41f77f1577.png);
+  --varita: url(https://i.imgur.com/w1UwI69.png);
+  --secondavi: url(https://placehold.co/130x130/222/ddd.png);
+  
+  --fuente1: 'Josefin Sans';
+  --fuente2: 'Poiret One';
+  --fuente3: 'Montserrat';
+}
+
+body { background:#101116; background-attachment: fixed; background-size:cover;}
+::-webkit-scrollbar { width: 6px; height:5px;}
+::-webkit-scrollbar-track { background-color: transparent;}
+::-webkit-scrollbar-thumb { background: var(--maincolor); border-radius:6px; }
+*, :before, :after { border: none; box-sizing: border-box; margin: 0; padding: 0;}
+
+
+
+.TablillaCute { width:700px; background:var(--white); margin:30px auto 10px; display:flex; flex-flow:column; border:1px solid var(--dark); gap:8px; align-content: flex-start; border-radius:10px; padding:8px;}
+.TablillaCute br { display:none;}
+.TablillaCute .sobremi br { display:block;}
+
+.TabCuTop { width:100%; height:500px; display:flex; flex-flow:row; gap:5px;}
+.CuTopData { width:70%; height:500px; display:flex; flex-flow:column; gap:5px;}
+.CuData { width:100%; height:300px; display:flex; flex-flow:row;}
+.CuBigima { width:250px; height:300px; background:var(--bigima) center; background-size:cover; background-position:center; border-radius:10px 0 0 10px;}
+.CuInfo { width:80%; height:300px; background:gold; background:vaR(--grad2); border-radius:0 10px 10px 0; padding:15px 10px;}
+.CuInfo h5 { font-family:var(--fuente2); text-align: left; font-size:28px; color:var(--acento1); text-transform:uppercase; line-height:27px;}
+.CuInfo block { width:100%; height:220px; display:flex; flex-flow:column wrap; gap:8px 10px; margin-top:15px; padding:0 10px;}
+.CuInfo data { background:var(--white); border-radius:4px; padding:2px 7px; font-family:var(--fuente3); font-weight:700; font-size:11px; text-transform:lowercase; font-style:italic; color:var(--dark1);}
+.avito { width:140px; height:140px; background:var(--avito) center; background-size: cover; position:absolute; border-radius:100px; border:10px solid var(--white); outline:1px solid var(--maincolor); transform:translate(215px,-70px); background-size:100%; background-position:center;}
+.Cusobremi { width:100%; height:250px; background:var(--grad2); border-radius:10px; padding:15px;}
+.Cusobremi h5 { font-family:var(--fuente2); font-size:20px; color:vaR(--acento1); text-transform:uppercase;}
+.sobremi { font-family:var(--fuente3); font-size:12px; color:var(--dark1); line-height:16px; text-align:justify; padding-right:20px; margin-top:10px; height:130px; overflow:auto; font-weight:500;}
+
+.CuTopColumn { width:30%; height:500px; background:var(--grad1); border-radius:10px; display:flex; flex-flow:column; justify-content:center; align-items:center;}
+.CuVarita { height:210px; display:flex; flex-flow:column; justify-content:center; align-items:center; padding:20px; gap:20px;}
+.mivarita { width:100px; height:100px; background-image:var(--varita); background-size:70%; background-position:center; background-repeat:no-repeat;}
+.varita { background:var(--white); padding:10px 20px; border-radius:10px; font-family:var(--fuente3); color:var(--dark1); text-align:center; font-size:12px; font-weight:500;}
+.varita b { color:var(--maincolor); display:block; text-transform:uppercase; font-family:var(--fuente1); margin-bottom:10px;}
+.Cufrase { width:150px; height:185px; padding:0 20px; text-align:right; margin-left:40px; font-family:var(--fuente3); color:var(--dark1); font-size:12px; line-height:14px;}
+.Cufrase i { display:block; color:var(--acento1); font-size:15px; margin-bottom:5px;}
+.CuDatos { width:100%; height:280px; padding:0 20px; display:flex; flex-flow:column; gap:5px;}
+.CuDatos data { background:var(--white); border-radius:4px; padding:2px 7px; font-family:var(--fuente3); font-weight:700; font-size:11px; text-transform:lowercase; font-style:italic; color:var(--dark1); text-align:right;}
+
+
+.TabCuMid { width:100%; height:450px; display:flex; flex-flow:row; gap:5px;}
+.TabMidCol { width:20%; height:450px; background:var(--grad1); border-radius:10px; display:flex; flex-flow:column; gap:10px; justify-content:space-between; align-items:flex-start; padding:30px 15px;}
+.TabMidCol stat { border-radius:5px; display:flex; flex-flow:row; gap:8px; font-family:var(--fuente1); color:var(--dark1); align-items: center; font-size:10px; font-weight:600;letter-spacing:2px; line-height:10px;}
+.TabMidCol stat i { font-size:40px; color:var(--maincolor); line-height:110%; }
+
+
+.TabMidRight { width:80%; height:450px; display:flex; flex-flow:column; gap:5px;}
+
+.TabMidTop { width:100%; height:280px; display:flex; flex-flow:row; gap:5px; overflow:hidden;}
+.bitacora { width:350px; height:100%; padding:10px 10px; background:var(--grad2); border-radius:10px;}
+.bitacora h5 { font-family:var(--fuente2); font-size:18px; color:var(--acento1); text-transform:uppercase;}
+.mibitacora { margin-top:10px; padding-right:10px; font-family:var(--fuente2); font-size:12px; text-align:justify; color:var(--white); overflow:auto; height:195px; gap:7px; display:flex; flex-flow:column;}
+.mibitacora bit { padding:10px; font-size:11px; background:Var(--white); border-radius:4px; line-height:12px; color:var(--dark1); font-family:var(--fuente3); font-weight:500; white-space: pre-line;}
+.mibitacora bit i { float:left; color:var(--maincolor); padding-right:10px; font-size:12px;}
+.mibitacora bit a { font-size:12px; display:block; font-family:var(--fuente3); font-weight:700; color:var(--acento1); text-decoration:none; font-style:italic;}
+
+.misimas { width:215px; height:200px; display:flex; flex-flow:row wrap; gap:5px; justify-content:center; align-items:center; padding:0;}
+.ima.i1 { background:var(--grad1); display:flex; flex-flow:column; gap:10px; align-items:center; justify-content:center; border-radius:10px 0px 0px 0px;}
+.ima.i1 i { color:var(--acento1); font-size:25px; }
+.ima a { font-family:var(--fuente1); color:var(--acento1); font-size:14px; text-decoration:none;}
+.misimas .ima { width: 100px; height:120px; background-size:cover; background-position:center;}
+.ima.i2 { background:var(--ima1) center; background-size: cover; border-radius:0 10px 0px 0px;}
+.ima.i3 { background:var(--ima2) center; background-size: cover; border-radius:0 0px 0px 10px;}
+.ima.i4 { background:var(--ima3) center; background-size: cover; border-radius:0 0px 10px 0px;}
+
+.TabMidBot { width:100%; height:200px; display:flex; flex-flow:row; gap:5px;}
+.Blockdata { width:50%; height:200px; background:var(--grad2); border-radius:10px; padding:10px;}
+.Blockdata h5 { font-family:var(--fuente2); font-size:20px; color:var(--acento1); text-transform:uppercase;}
+.insidedata bot { width: 100%; padding:10px; font-size:11px; background:Var(--white); border-radius:4px; line-height:12px; color:var(--dark1); font-family:var(--fuente3); font-weight:500; white-space: pre-line;}
+.insidedata bot i { float:left; color:var(--maincolor); padding-right:10px; font-size:12px;}
+.insidedata bot a { font-size:12px; display:block; font-family:var(--fuente3); font-weight:700; color:var(--acento1); text-decoration:none; font-style:italic;}
+.insidedata { overflow: auto; display:flex; flex-flow:row wrap; gap:5px; padding:10px 10px 0 0; height:160px; justify-content:flex-start; align-items:flex-start; align-content: flex-start;}
+.insidedata data { background:var(--white); border-radius:4px; padding:4px 7px; font-family:var(--fuente3); font-weight:700; font-size:10px; text-transform:lowercase; font-style:italic; color:var(--dark1); text-align:right;}
+
+
+.TabCuBot { width:100%; height:150px; background:var(--grad2); display:flex; flex-flow:row; gap:30px; justify-items:center; align-items:center; padding:20px 30px; border-radius:10px;}
+.TabCuBot h5 { width: 15%; text-align: center; font-family:var(--fuente2); font-size:20px; color:var(--acento1); text-transform:uppercase;}
+.registro { width: 85%; font-family:var(--fuente3); font-size:11px; text-align:justify; line-height:15px; font-weight:500; color:var(--dark1); height:110px; overflow:auto; padding-right: 20px;}
