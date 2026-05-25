@@ -31,7 +31,7 @@ body { background-attachment: fixed; background-size:cover;}
 
 
 
-.TablillaCute { width:700px; background:var(--white); margin:30px auto 10px; display:flex; flex-flow:column; border:1px solid var(--dark); gap:8px; align-content: flex-start; border-radius:10px; padding:8px;}
+.TablillaCute { width:700px; background:var(--white); display:flex; flex-flow:column; border:1px solid var(--dark); gap:8px; align-content: flex-start; border-radius:10px; padding:8px;}
 .TablillaCute br { display:none;}
 .TablillaCute .sobremi br { display:block;}
 
