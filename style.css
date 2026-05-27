@@ -23,7 +23,7 @@
   --fuente3: 'Montserrat';
 }
 
-body { background:#101116; background-attachment: fixed; background-size:cover;}
+body { background-attachment: fixed; background-size:cover;}
 ::-webkit-scrollbar { width: 6px; height:5px;}
 ::-webkit-scrollbar-track { background-color: transparent;}
 ::-webkit-scrollbar-thumb { background: var(--maincolor); border-radius:6px; }
